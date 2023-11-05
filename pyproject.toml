@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "traffix-sdk"
+version = "0.1.0"
+description = "Python SDK for all Traffix microservices"
+authors = ["Brandon Spendlove <brandon.spendlove@netzeus.io>"]
+license = "Apache License 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydantic = "1.10.13"
+motor = "^3.3.1"
+bson = "^0.5.10"
+fastapi = "^0.103.2"
+uvicorn = "^0.23.2"
+loguru = "^0.7.2"
+redis = "^5.0.1"
+python-jose = "^3.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
